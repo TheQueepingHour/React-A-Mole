@@ -6,7 +6,6 @@ const MoleContainer = (props) => {
         <div>
             <h1>Mole Container</h1>
             <Mole />
-            <EmptySlot />
         </div>
     )
 }
