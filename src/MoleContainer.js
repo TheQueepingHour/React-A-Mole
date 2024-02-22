@@ -11,7 +11,7 @@ const MoleContainer = (props) => {
         displayMole(false)
     }
 
-    let moleDisplay = mole ? <Mole  /> : <EmptySlot />
+    let moleDisplay = mole ? <Mole setScore = {props.setScore} toggle={displayMole} handleBop={handleBop} /> : <EmptySlot toggle={displayMole} />
 
     return (
         <div className="col-lg-3 col-md-3 col-sm-3 col-3 p-2 m-2 border border-warning rounded">
