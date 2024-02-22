@@ -13,8 +13,8 @@ const MoleContainer = (props) => {
 
     let moleDisplay = mole ? <Mole  /> : <EmptySlot />
 
-    return(
-        <div>
+    return (
+        <div className="col-lg-3 col-md-3 col-sm-3 col-3 p-2 m-2 border border-warning rounded">
             {moleDisplay}
         </div>
     )

@@ -2,9 +2,7 @@
 
 const Mole = (props) => {
     return(
-        <div>
-            
-        </div>
+        <p>Mole</p>
     )
 }
 
