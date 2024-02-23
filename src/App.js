@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App py-3 text-warning">
       <h1>React-A-Mole</h1>
-      {score}
+      <span style={{ fontSize: '24px'}}>{score}</span>
       {createMoleHill()}
       <button onClick={reset}>Reset</button>
     </div>
