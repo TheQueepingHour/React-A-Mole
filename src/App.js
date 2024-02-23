@@ -5,6 +5,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
+  const reset = () => {
+    window.location.reload()
+  }
+
   let [score, setScore] = useState(0)
 
   const createMoleHill = () => {
@@ -26,6 +30,7 @@ function App() {
       <h1>React-A-Mole</h1>
       {score}
       {createMoleHill()}
+      <button onClick={reset}>Reset</button>
     </div>
   );
 }
